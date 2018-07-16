@@ -1,0 +1,29 @@
+2018-07-16 14:19:17.190  WARN 8004 --- [nio-7070-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2018-07-16 14:19:17.190 ERROR 8004 --- [nio-7070-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'post' at row 1
+!! handleAllExceptions !!
+2018-07-16 14:19:17.215  WARN 8004 --- [nio-7070-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+Hibernate: select user0_.user_id as user_id1_5_, user0_.achivement as achiveme2_5_, user0_.address as address3_5_, user0_.age as age4_5_, user0_.category as category5_5_, user0_.certificate as certific6_5_, user0_.description as descript7_5_, user0_.email as email8_5_, user0_.gender as gender9_5_, user0_.online_status as online_10_5_, user0_.password as passwor11_5_, user0_.phone_number as phone_n12_5_, user0_.profession as profess13_5_, user0_.profile_picture_path as profile14_5_, user0_.rank as rank15_5_, user0_.user_name as user_na16_5_ from user user0_ where user0_.user_id=?
+Hibernate: insert into news_feed (date_time, post, user_user_id) values (?, ?, ?)
+2018-07-16 14:19:41.627  WARN 8004 --- [nio-7070-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2018-07-16 14:19:41.630 ERROR 8004 --- [nio-7070-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'post' at row 1
+!! handleAllExceptions !!
+2018-07-16 14:19:41.634  WARN 8004 --- [nio-7070-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+Hibernate: select user0_.user_id as user_id1_5_, user0_.achivement as achiveme2_5_, user0_.address as address3_5_, user0_.age as age4_5_, user0_.category as category5_5_, user0_.certificate as certific6_5_, user0_.description as descript7_5_, user0_.email as email8_5_, user0_.gender as gender9_5_, user0_.online_status as online_10_5_, user0_.password as passwor11_5_, user0_.phone_number as phone_n12_5_, user0_.profession as profess13_5_, user0_.profile_picture_path as profile14_5_, user0_.rank as rank15_5_, user0_.user_name as user_na16_5_ from user user0_ where user0_.user_id=?
+Hibernate: insert into news_feed (date_time, post, user_user_id) values (?, ?, ?)
+2018-07-16 14:20:06.231  WARN 8004 --- [nio-7070-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1406, SQLState: 22001
+2018-07-16 14:20:06.231 ERROR 8004 --- [nio-7070-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Data truncation: Data too long for column 'post' at row 1
+!! handleAllExceptions !!
+2018-07-16 14:20:06.243  WARN 8004 --- [nio-7070-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement
+Hibernate: select user0_.user_id as user_id1_5_, user0_.achivement as achiveme2_5_, user0_.address as address3_5_, user0_.age as age4_5_, user0_.category as category5_5_, user0_.certificate as certific6_5_, user0_.description as descript7_5_, user0_.email as email8_5_, user0_.gender as gender9_5_, user0_.online_status as online_10_5_, user0_.password as passwor11_5_, user0_.phone_number as phone_n12_5_, user0_.profession as profess13_5_, user0_.profile_picture_path as profile14_5_, user0_.rank as rank15_5_, user0_.user_name as user_na16_5_ from user user0_ where user0_.user_id=?
+Hibernate: insert into news_feed (date_time, post, user_user_id) values (?, ?, ?)
+Hib
+
+
+Data
+
+
+Atticus said to Jem one day, “I’d rather you shot at tin cans in the backyard, but I know you’ll go after birds.
+ Shoot all the blue jays you want, if you can hit ‘em, but remember it’s a sin to kill a mockingbird.” That was
+ the only time I ever heard Atticus say it was a sin to do something, and I asked Miss Maudie about it. “Your father’s
+ right,” she said. “Mockingbirds don’t do one thing except make music for us to enjoy. They don’t eat up people’s gardens,
+ don’t nest in corn cribs, they don’t do one thing but sing their hearts out for us. That’s why it’s a sin to kill a mockingbird.” – Harper Lee, To Kill a Mockingbird
